@@ -23,7 +23,7 @@ export default function App() {
   },[city])
   return (
     <div id='body'>
-      <h1 id='h1'>Weather Report App</h1>
+      <h1 id='h1' className='display-3'>Weather Report App</h1>
        <div id='weatherReport'>
        <input
         type="text"
